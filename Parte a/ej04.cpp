@@ -10,7 +10,7 @@ horas. Es decir, debe leer 6 temperaturas. Calcule la temperatura media del día
     suma=suma+temp;
     max = temp;
     min = temp;
-    for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < 6; i++) {
         std::cout << "Ingrese la temperatura: ";
         std::cin >> temp;
         suma += temp;
